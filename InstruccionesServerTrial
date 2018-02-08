@@ -1,0 +1,20 @@
+Pasos para probar la comunicación Client-server
+
+Raspberry Pi (Actua como Cliente), basado en (Client.js)
+En la carpeta con la ruta: /home/pi/Documents/nodejsPython/testJsArgvs.py
+  - este archivo contiene un trigger con teclado donde cada vez que se lee un 2, se ejecuta
+    un archivo de javascript para enviar información al servidor por medio de sockets, lo que
+    es lo más similar a comunicación Real Time.
+
+
+En servidor: (Server.js)
+1.- Correr en terminal: http-server
+  (lo cual indica que el servidor ya puede correr desde la IP que ya tiene asignada)
+
+  info en la sig página: http://jasonwatmore.com/post/2016/06/22/nodejs-setup-simple-http-server-local-web-server
+
+2.- En otra terminal se corre el código del Servidor que corresponde a Server.js
+
+
+Este link explica como ejecutar procesos de javascript desde python
+http://sweetme.at/2014/02/17/a-simple-approach-to-execute-a-node.js-script-from-python/
