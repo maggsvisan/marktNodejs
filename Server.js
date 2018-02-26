@@ -25,8 +25,10 @@ router.get("/about",function(req,res){
   res.render(path + "about.hbs");
 });
 
-router.post("/register",function(req,res){
+router.get("/register",function(req,res){
   res.render(path + "register.hbs");
+
+
   
 });
 

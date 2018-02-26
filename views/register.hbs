@@ -17,56 +17,62 @@
 				<form>
 					<div class="col-sm-12">
 						<div class="row">
-							<div class="col-sm-6 form-group">
+							<div class="col-sm-12 form-group">
 								<label>First Name</label>
-								<input type="text" placeholder="Enter First Name Here.." class="form-control">
+								<input type="text" placeholder="Enter First Name " class="form-control">
 							</div>
-							<div class="col-sm-6 form-group">
+							<div class="col-sm-12 form-group">
 								<label>Last Name</label>
-								<input type="text" placeholder="Enter Last Name Here.." class="form-control">
+								<input type="text" placeholder="Enter Last Name " class="form-control">
 							</div>
-						</div>					
+							<div class="col-sm-12 form-group">
+							<label>Phone</label>
+							<textarea placeholder="Enter Phone Here.." class="form-control"></textarea>
+							</div>
+						</div>		
 						<div class="form-group">
-							<label>Address</label>
-							<textarea placeholder="Enter Address Here.." rows="3" class="form-control"></textarea>
-						</div>	
+							<label>Email Address</label>
+							<input type="text" placeholder="Enter Email Address Here.." class="form-control">
+						</div>				
+								
 						<div class="row">
-							<div class="col-sm-4 form-group">
-								<label>City</label>
-								<input type="text" placeholder="Enter City Name Here.." class="form-control">
+							<div class="col-sm-2 form-group">
+								<label>Admin Permission</label>
+								<br>
+								<div id="adminDiv">
+									<select name="AdminPermission">
+										<option value="NoVal">Select value</option>
+										<option value="YesPer">Yes</option>
+										<option value="NoPer">No</option>
+									</select>
+								</div>
 							</div>	
+							
 							<div class="col-sm-4 form-group">
-								<label>State</label>
-								<input type="text" placeholder="Enter State Name Here.." class="form-control">
+								<label>Password</label>
+								<input type="password" placeholder="Enter Password" class="form-control">
 							</div>	
+							<div class="col-sm-2 form-group">
+								<label>Birthday</label>
+								<input type="text" placeholder="yyyy-mm-dd" class="form-control">
+							</div>	
+
 							<div class="col-sm-4 form-group">
-								<label>Zip</label>
-								<input type="text" placeholder="Enter Zip Code Here.." class="form-control">
+								<label>Select type of profile for user</label>
+								<br>
+								<div id="testtest">
+									<select name="userType">
+										<option value="NoVal">Select value</option>
+										<option value="Employee">Employee</option>
+										<option value="Guest">Guest</option>
+										<option value="Maintenance">Maintenance</option>
+										<option value="Cleaning">Cleaning</option>
+									</select>
+								</div>
 							</div>		
 						</div>
-						<div class="row">
-							<div class="col-sm-6 form-group">
-								<label>Title</label>
-								<input type="text" placeholder="Enter Designation Here.." class="form-control">
-							</div>		
-							<div class="col-sm-6 form-group">
-								<label>Company</label>
-								<input type="text" placeholder="Enter Company Name Here.." class="form-control">
-							</div>	
-						</div>						
-					<div class="form-group">
-						<label>Phone Number</label>
-						<input type="text" placeholder="Enter Phone Number Here.." class="form-control">
-					</div>		
-					<div class="form-group">
-						<label>Email Address</label>
-						<input type="text" placeholder="Enter Email Address Here.." class="form-control">
-					</div>	
-					<div class="form-group">
-						<label>Website</label>
-						<input type="text" placeholder="Enter Website Name Here.." class="form-control">
-					</div>
-					<button type="button" class="btn btn-lg btn-info">Submit</button>					
+										
+					<button id="submitRegButton" type="button" class="btn btn-lg btn-info">Submit</button>					
 					</div>
 				</form> 
 				</div>
