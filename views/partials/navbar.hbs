@@ -1,0 +1,41 @@
+    <!-- NAVBAR SECTION -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="navBarID">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <div class="navbar-header"> <a href="#" class="navbar-brand">QR Access Control</a> </div>
+            <!-- Menu Items -->
+            <div class="container-fluid" id="menutoolbar">
+                <ul class="nav navbar-nav">
+                    <li class="active" id="SearchEmployee"><a href="#page1"> Dashboard </a></li>
+                    <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Remove Account <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">Delete an account</li>
+                            <li><a id="rmvEmp" href="#">Employee</a></li>
+                            <li class="divider"></li>
+                            <li><a id="rmvAdmin" href="#">Administrator</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Registration <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">Register a new account</li>
+                            <li id="regEmp"><a href="#">Employee</a></li>
+                            <li class="divider"></li>
+                            <li><a id="regAdmin" href="#">Administrator</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"> <a href="#" id="CurrentAccounts" class="dropdown-toggle" data-toggle="dropdown">Current Registers <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">Select type of account</li>
+                            <li ><a id="showEmp" href="#">Employee</a></li>
+                            <li class="divider"></li>
+                            <li><a id="showAdmin" href="#">Administrator</a></li>
+                        </ul>
+                    </li>
+                    <li id="logoutButton" align="right" style="display:block"><a> Logout </a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li align="right" style="display:block"> <a id="currentLogin"> Currently login as:  </a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
