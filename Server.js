@@ -2,8 +2,7 @@ var net = require('net');
 var PythonShell = require('python-shell');
 var io = require('socket.io').listen(net);
 
-//var HOST = '127.0.0.1';
-var HOST = '192.168.65.19';
+var HOST = '127.0.0.1';
 var PORT = 8080;
 var test1=0;
 var test2=0;
